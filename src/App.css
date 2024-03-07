@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parent{
+  width: 60%;
+  padding: 50px 10px;
+    border: 10px solid #7fd8e6;
+    border-radius: 12px;
+    background-color: #ddf2f5;
+    margin: 4rem auto
+   
 }
+.card-box{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-item-1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+gap:1rem;
+align-items: center;
 
-.App-link {
-  color: #61dafb;
 }
+.card-item-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card-item-3{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.count{
+
+  background-color: #7fd8e6;
+padding:12px 70px;
+border-radius: 16px ;
+font-size: 22px;
+font-weight: 700;
+}
+.pointer{
+  cursor: pointer;
+}
+.counters{
+  display: flex;
+gap: 12px;
+}
+.refresh-icon{
+  padding: 8px;
+  background-color: #4ca846;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.recycle-icon{
+
+  padding: 8px;
+  background-color: #59a1f5;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.counter-item{
+  display: flex;
+  gap:1rem;
+  align-items: center;
+  font-weight:700;
+  font-size: 22px;
+  margin-top: 8px;
+}
+.count{
+  padding: 8px 0px;
+  background-color: #f8c246; 
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  width: 5rem;
+
+}
+.add{
+  padding: 8px 14px;
+  background-color: #6c757d; 
+  cursor: pointer;
+  border-radius: 8px;
+
+
+}
+.minus{
+  padding: 8px 14px;
+  background-color: #69becd; 
+  border-radius: 8px;
+  cursor: pointer;
+
+
+}
+.delete{
+  padding: 8px ;
+  background-color: red; 
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.data-not-found{
+
+font-size: 30px;
+font-weight: 700;
+
+}
+.m-0{
+  margin:0px
+}
+.blue{
+  background-color:#167af6;
+  color:white
 }
